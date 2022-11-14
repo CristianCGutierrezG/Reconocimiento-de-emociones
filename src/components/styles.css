@@ -1,0 +1,160 @@
+.container {
+  width: 100%;
+  height: 90%;
+  margin-top: 68px;
+  background-color: aqua;
+  transition: all 0.5s ease;
+}
+
+.activeNave {
+  width: 77%;
+  margin-left: 23%;
+  display: block;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 2.5px 0;
+  top: 0%;
+  left: 0%;
+  background-color: #a8b2ea;
+  position: fixed;
+}
+.content {
+  margin: 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  gap: 20px;
+  margin: 0 5px;
+}
+
+.navbarButton {
+  width: 60px;
+  border: none;
+  display: flex;
+}
+
+.logo {
+  line-height: 0;
+  display: block;
+}
+
+.logo img {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  max-width: 130px;
+}
+
+.right {
+  display: flex;
+  gap: 20px;
+  margin: 0 5px;
+}
+.icon {
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+}
+
+.icon:hover {
+  background-color: rgb(202, 202, 202);
+}
+
+.iconButton {
+  border: none;
+  background-color: transparent;
+  margin: auto;
+  display: flex;
+}
+
+.iconButton svg {
+  margin: auto;
+  font-size: 22px;
+  color: #fff;
+}
+
+.User {
+  display: flex;
+  gap: 20px;
+}
+.name {
+  color: #fff;
+  line-height: 0;
+  margin: auto;
+}
+.image {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+}
+
+.image svg {
+  color: #968ed4;
+  font-size: 25px;
+  margin: auto;
+}
+
+.navContainer {
+  position: absolute;
+  background-color: #677c99;
+  width: 23%;
+  height: 100%;
+  top: 68px;
+  left: -1000px;
+  transition: all 0.5s ease;
+}
+
+.active {
+  position: fixed;
+  left: 0%;
+}
+
+.navBar {
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+}
+.linkNav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.linkNav:hover {
+  background-color: #a8c2e7;
+}
+
+.iconNav {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  margin-left: 5px;
+}
+
+.iconNav svg {
+  font-size: 25px;
+  margin: auto;
+}
+.textNav {
+  line-height: 0;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
